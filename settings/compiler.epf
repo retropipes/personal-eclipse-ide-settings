@@ -1,10 +1,11 @@
-#Sat Nov 30 09:47:39 EST 2019
+#Wed Mar 25 20:07:01 EDT 2020
 \!/=
-/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch,*.DS_Store
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.builder.recreateModifiedClassFileInOutputFolder=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch,.DS_Store
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.methodParameters=generate
-/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=13
-/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=13
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=14
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=14
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.APILeak=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.autoboxing=ignore
@@ -37,7 +38,9 @@
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportMethodCanBeStatic=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.specialParameterHidingField=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.suppressWarningsNotFullyAnalysed=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.syntheticAccessEmulation=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.terminalDeprecation=error
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unlikelyEqualsArgumentType=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryElse=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryTypeCheck=warning
@@ -46,9 +49,10 @@
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedParameter=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedWarningToken=ignore
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.release=enabled
-/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=13
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=14
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskCaseSensitive=enabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskPriorities=NORMAL,HIGH,NORMAL
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskTags=TODO,FIXME,XXX
-@org.eclipse.jdt.core=3.19.50.v20190918-0621_BETA_JAVA13
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.incompatibleJDKLevel=warning
+@org.eclipse.jdt.core=3.21.50.v20200318-0850_BETA_JAVA14
 file_export_version=3.0
