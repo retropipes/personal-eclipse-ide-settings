@@ -1,6 +1,5 @@
-#Sun Feb 17 10:17:11 EST 2019
+#Sun Jun 27 12:58:59 EDT 2021
 \!/=
-/instance/com.github.spotbugs.plugin.eclipse/askAboutPerspectiveSwitch=false
 /instance/com.github.spotbugs.plugin.eclipse/detectorAppendingToAnObjectOutputStream=AppendingToAnObjectOutputStream|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorAtomicityProblem=AtomicityProblem|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorBadAppletConstructor=BadAppletConstructor|false
@@ -19,9 +18,10 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorConfusedInheritance=ConfusedInheritance|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorConfusionBetweenInheritedAndOuterMethod=ConfusionBetweenInheritedAndOuterMethod|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorCovariantArrayAssignment=CovariantArrayAssignment|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorCrossSiteScripting=CrossSiteScripting|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorCrossSiteScripting=CrossSiteScripting|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorDefaultEncodingDetector=DefaultEncodingDetector|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorDoInsideDoPrivileged=DoInsideDoPrivileged|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorDoInsideDoPrivileged=DoInsideDoPrivileged|false
+/instance/com.github.spotbugs.plugin.eclipse/detectorDontAssertInstanceofInTests=DontAssertInstanceofInTests|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorDontCatchIllegalMonitorStateException=DontCatchIllegalMonitorStateException|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorDontIgnoreResultOfPutIfAbsent=DontIgnoreResultOfPutIfAbsent|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorDontUseEnum=DontUseEnum|true
@@ -31,7 +31,7 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorDuplicateBranches=DuplicateBranches|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorEmptyZipFileEntry=EmptyZipFileEntry|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorEqualsOperandShouldHaveClassCompatibleWithThis=EqualsOperandShouldHaveClassCompatibleWithThis|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorExplicitSerialization=ExplicitSerialization|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorExplicitSerialization=ExplicitSerialization|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorFinalizerNullsFields=FinalizerNullsFields|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindBadCast2=FindBadCast2|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindBadForLoop=FindBadForLoop|true
@@ -56,21 +56,21 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindOpenStream=FindOpenStream|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindPuzzlers=FindPuzzlers|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindRefComparison=FindRefComparison|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorFindReturnRef=FindReturnRef|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorFindReturnRef=FindReturnRef|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindRoughConstants=FindRoughConstants|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindRunInvocations=FindRunInvocations|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindSelfComparison=FindSelfComparison|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindSelfComparison2=FindSelfComparison2|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindSleepWithLockHeld=FindSleepWithLockHeld|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindSpinLoop=FindSpinLoop|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorFindSqlInjection=FindSqlInjection|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorFindSqlInjection=FindSqlInjection|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindTwoLockWait=FindTwoLockWait|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUncalledPrivateMethods=FindUncalledPrivateMethods|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUnconditionalWait=FindUnconditionalWait|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUninitializedGet=FindUninitializedGet|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUnrelatedTypesInGenericContainer=FindUnrelatedTypesInGenericContainer|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUnreleasedLock=FindUnreleasedLock|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorFindUnsatisfiedObligation=FindUnsatisfiedObligation|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorFindUnsatisfiedObligation=FindUnsatisfiedObligation|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUnsyncGet=FindUnsyncGet|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUseOfNonSerializableValue=FindUseOfNonSerializableValue|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorFindUselessControlFlow=FindUselessControlFlow|true
@@ -96,7 +96,7 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorIteratorIdioms=IteratorIdioms|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorLazyInit=LazyInit|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorLoadOfKnownNullValue=LoadOfKnownNullValue|true
-/instance/com.github.spotbugs.plugin.eclipse/detectorLostLoggerDueToWeakReference=LostLoggerDueToWeakReference|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorLostLoggerDueToWeakReference=LostLoggerDueToWeakReference|false
 /instance/com.github.spotbugs.plugin.eclipse/detectorMethodReturnCheck=MethodReturnCheck|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorMultithreadedInstanceAccess=MultithreadedInstanceAccess|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorMutableEnum=MutableEnum|true
@@ -107,6 +107,7 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorNumberConstructor=NumberConstructor|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorOptionalReturnNull=OptionalReturnNull|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorOverridingEqualsNotSymmetrical=OverridingEqualsNotSymmetrical|true
+/instance/com.github.spotbugs.plugin.eclipse/detectorOverridingMethodsMustInvokeSuperDetector=OverridingMethodsMustInvokeSuperDetector|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorPreferZeroLengthArrays=PreferZeroLengthArrays|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorPublicSemaphores=PublicSemaphores|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorQuestionableBooleanAssignment=QuestionableBooleanAssignment|true
@@ -138,11 +139,10 @@
 /instance/com.github.spotbugs.plugin.eclipse/detectorWrongMapIterator=WrongMapIterator|true
 /instance/com.github.spotbugs.plugin.eclipse/detectorXMLFactoryBypass=XMLFactoryBypass|true
 /instance/com.github.spotbugs.plugin.eclipse/detector_threshold=2
-/instance/com.github.spotbugs.plugin.eclipse/dontRemindAboutFullBuild=true
 /instance/com.github.spotbugs.plugin.eclipse/effort=default
-/instance/com.github.spotbugs.plugin.eclipse/filter_settings=Medium|BAD_PRACTICE,CORRECTNESS,I18N,MT_CORRECTNESS,PERFORMANCE,STYLE|false|15
-/instance/com.github.spotbugs.plugin.eclipse/filter_settings_neg=MALICIOUS_CODE,SECURITY,EXPERIMENTAL,NOISE|
-/instance/com.github.spotbugs.plugin.eclipse/plugin0=../../Installers/macOS/Dev/IDEs/Eclipse/plugins/fb-contrib-7.4.3.sb.jar|true
+/instance/com.github.spotbugs.plugin.eclipse/filter_settings=Medium|BAD_PRACTICE,CORRECTNESS,I18N,MALICIOUS_CODE,MT_CORRECTNESS,PERFORMANCE,SECURITY,STYLE|false|15
+/instance/com.github.spotbugs.plugin.eclipse/filter_settings_neg=EXPERIMENTAL,NOISE|
+/instance/com.github.spotbugs.plugin.eclipse/plugin0=plugins/fb-contrib.jar|true
 /instance/com.github.spotbugs.plugin.eclipse/run_at_full_build=false
-@com.github.spotbugs.plugin.eclipse=3.1.11.r201901210915-d4a1331
+@com.github.spotbugs.plugin.eclipse=4.2.3.r202104160407-de5da7e
 file_export_version=3.0
