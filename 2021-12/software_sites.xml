@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+   <site url="https://download.eclipse.org/eclipse/updates/4.22" selected="true" name="The Eclipse Project Updates"/>
+   <site url="https://download.eclipse.org/releases/latest" selected="true" name="Latest Eclipse Simultaneous Release"/>
+   <site url="https://download.eclipse.org/technology/epp/packages/latest/" selected="true" name="Latest Eclipse IDE Packages Release"/>
+</bookmarks>
